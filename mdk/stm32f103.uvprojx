@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,HSE_VALUE=8000000</Define>
               <Undefine></Undefine>
-              <IncludePath>..\firmware\cmsis\device;..\driver\inc;..\firmware\cmsis\core</IncludePath>
+              <IncludePath>..\firmware\cmsis\device;..\firmware\driver\inc;..\firmware\cmsis\core</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -418,117 +418,117 @@
             <File>
               <FileName>misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\misc.c</FilePath>
+              <FilePath>..\firmware\driver\src\misc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_adc.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_adc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_bkp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_bkp.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_bkp.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_can.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_can.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_can.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_cec.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_cec.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_cec.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_crc.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_crc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_dac.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_dac.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dbgmcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_dbgmcu.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_dbgmcu.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_dma.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_dma.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_exti.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_exti.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_flash.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_flash.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_fsmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_fsmc.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_fsmc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_gpio.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_gpio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_i2c.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_i2c.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_iwdg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_iwdg.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_iwdg.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_pwr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_pwr.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_pwr.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_rcc.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_rcc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_rtc.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_rtc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_sdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_sdio.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_sdio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_spi.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_spi.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_tim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_tim.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_tim.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_usart.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_usart.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_wwdg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\driver\src\stm32f10x_wwdg.c</FilePath>
+              <FilePath>..\firmware\driver\src\stm32f10x_wwdg.c</FilePath>
             </File>
           </Files>
         </Group>
